@@ -3,3 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+.headerContainer {
+  display: grid;
+}
+.header {
+  width: 100vw;
+  height: auto;
+  background-color: #000;
+}
+.header--logo {
+  width: 300px;
+  height: 100px;
+  background-image: url("https://images-na.ssl-images-amazon.com/images/G/33/gno/sprites/new-nav-sprite-global-2x_blueheaven-clean._CB426770536_.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
