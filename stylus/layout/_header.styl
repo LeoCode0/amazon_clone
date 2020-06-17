@@ -1,14 +1,38 @@
 .headerContainer
     display: grid
 
+.headerContainer
+    height 40px
+    display: grid
+    grid-template-columns: repeat(11, 1fr)
+    border-bottom: 3px solid #57616c
+
 .header
-    width: 100vw
     height: auto
-    background-color: black
+    background-color: brand-color
+    &--menu
+        iconProperties(1, 3, 6px, 10px)
     &--logo
-        width: 300px
-        height: 100px
-        background-image: url('https://images-na.ssl-images-amazon.com/images/G/33/gno/sprites/new-nav-sprite-global-2x_blueheaven-clean._CB426770536_.png')
-        background-position: 10px 10px 
-        background-repeat: no-repeat
-        background-size: cover
+        grid-column-start: 3
+        grid-column-end: 9
+        padding-top: 8px
+        img
+            width: 100%
+            height: 100%
+    &--user
+        iconProperties(9, 10, 6px, 0)
+    &--checkout
+        iconProperties(10, 11, 6px, 0)
+        margin-left: 20px
+    &--search
+        width: 100%
+        padding: 0 10px
+        & input[type=text]
+            height: 50px
+            width: 80%
+        & input[type=button]
+            position: absolute
+            width: 17%
+            height: 50px
+            background-color: #fcbb6a
+            border: 0
