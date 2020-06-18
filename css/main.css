@@ -145,6 +145,12 @@ ul {
 .session--create__anchor {
   color: #0066c0;
 }
+.products--offer {
+  padding: 0 10px;
+}
+.products--offer__title {
+  font-weight: 500;
+}
 .footer--sites__goUp {
   display: flex;
   flex-direction: column;
