@@ -76,13 +76,38 @@ ul {
   padding: 0 10px;
 }
 .header--search input[type=text] {
-  height: 50px;
   width: 80%;
+  padding-left: 10px;
+  font-size: 14px;
+  height: 46px;
+  border: 0;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
 }
 .header--search input[type=button] {
   position: absolute;
   width: 17%;
-  height: 50px;
+  height: 46px;
   background-color: #fcbb6a;
+  height: 46px;
   border: 0;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.navbar {
+  overflow-x: scroll;
+  width: auto;
+}
+.navbar--ul {
+  display: flex;
+  height: 56px;
+  align-items: center;
+}
+.navbar--ul__li {
+  margin: 10px;
+  white-space: nowrap;
+}
+.navbar--ul__li a {
+  color: #fff;
+  font-weight: 600;
 }

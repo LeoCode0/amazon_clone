@@ -9,7 +9,7 @@
 
 .header
     height: auto
-    background-color: brand-color
+    background-color: $brand-color
     &--menu
         iconProperties(1, 3, 6px, 10px)
     &--logo
@@ -28,11 +28,13 @@
         width: 100%
         padding: 0 10px
         & input[type=text]
-            height: 50px
             width: 80%
+            padding-left: 10px
+            font-size: 14px
+            searchProperties()
         & input[type=button]
             position: absolute
             width: 17%
-            height: 50px
+            height: 46px
             background-color: #fcbb6a
-            border: 0
+            buttonProperties()
