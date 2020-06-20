@@ -21,6 +21,29 @@ ul {
   grid-template-columns: repeat(11, 1fr);
   border-bottom: 3px solid #57616c;
 }
+.desktop {
+  padding-top: 10px;
+  width: 100vw;
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #3c516b;
+}
+.desktop a {
+  color: #fff;
+}
+.desktop a:hover {
+  color: #faa41a;
+  text-decoration: underline;
+}
+.desktop i {
+  color: #fff;
+  font-size: 20px;
+}
+.desktop i:hover {
+  color: #faa41a;
+  cursor: pointer;
+}
 .header {
   height: auto;
   background-color: #232f3e;
