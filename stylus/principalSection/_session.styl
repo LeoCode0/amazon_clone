@@ -1,6 +1,5 @@
 .session
-    border-top: 5px solid lighten(gray, 50%)
-    border-bottom: 5px solid lighten(gray, 50%)
+    borderSeparate()
     padding: 0 $lateral-spacing
     &--information
         height: 60px
@@ -24,5 +23,6 @@
         display: flex
         justify-content: space-between
         &__anchor
-            color: #0066c0
-    
+            color: $color-anchors
+        i
+            opacity: 0.5    
