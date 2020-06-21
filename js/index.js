@@ -1,5 +1,4 @@
-const modal = document.getElementById('desktop')
-
-const test = () => {
-    modal.style.display = 'None'
+const hideOption = (option) => {
+    const option = document.getElementById(option)
+    option.style.display = 'None'
 }
